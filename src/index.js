@@ -7,6 +7,7 @@ const styles = {
   textAlign: "center"
 };
 
+
 let App = ({ buttonText, setTemporarily }) => (
   <div style={styles}>
     <button onClick={() => setTemporarily("Saved!")}>{buttonText}</button>
